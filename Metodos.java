@@ -293,11 +293,11 @@ public class Metodos {
     public int MenuFuncionario(Scanner sc) {
 
         System.out.println("\n¿A qué funcionario desea visitar?");
-        System.out.println("1 Gerente");
-        System.out.println("2 Líder de Recursos Humanos");
-        System.out.println("3 Auxiliar de Contabilidad");
-        System.out.println("4 Ingeniero del departamento de Sistemas");
-        System.out.println("5 Líder Comercial");
+        System.out.println("1. Gerente");
+        System.out.println("2. Líder de Recursos Humanos");
+        System.out.println("3. Auxiliar de Contabilidad");
+        System.out.println("4. Ingeniero del departamento de Sistemas");
+        System.out.println("5. Líder Comercial");
 
         return ValidarEntero(sc);
     }
